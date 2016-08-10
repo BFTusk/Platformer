@@ -6,7 +6,7 @@ function main() {
 
 function initialize() {
     // socket connection
-	socket = io('127.0.0.1:8080');
+	//socket = io('127.0.0.1:8080');
     // delta time
     dt = Date.now();
     ldt = dt;
@@ -15,7 +15,7 @@ function initialize() {
 	clearScreen("black");
     // listeners
 	registerKeys();
-	registerSocketEvents();
+	//registerSocketEvents();
 }
 
 function render() {
